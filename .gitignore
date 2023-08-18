@@ -1,0 +1,14 @@
+*.csv
+*.dat
+*.npy
+*.pt
+*.out
+*.svg
+*.eps
+__pycache__
+*.pyc
+*.xlsx
+*.xls
+*.xlsx#
+.~lock.eredmenyek.xlsx#
+*.eps
