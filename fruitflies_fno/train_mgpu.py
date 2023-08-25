@@ -141,7 +141,7 @@ valid_input = torch.FloatTensor(X_valid)
 valid_target = torch.LongTensor(y_valid)
 train_dataset = TensorDataset(train_input, train_target)
 valid_dataset = TensorDataset(valid_input, valid_target)
-train_loader = torch.utils.data.DataLoader(train_dataset, batch_size=TRAIN_BATCH_SIZE, shuffle=False)
+train_loader = torch.utils.data.DataLoader(train_dataset, batch_size=TRAIN_BATCH_SIZE, shuffle=True)
 valid_loader = torch.utils.data.DataLoader(valid_dataset, batch_size=VALID_BATCH_SIZE, shuffle=False)
 
 # Trainings

@@ -1,0 +1,26 @@
+Dataset: Fruitflies
+Device: NVIDIA GeForce GTX 1080 | Number: 1
+Number of the parameters: 8547107
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+The model with the best validation accuracy:
+Train Loss: 0.020 -  Train Acc: 99.35% | Valid Loss: 0.049 - Valid Acc: 98.29% | Test Loss: 0.057 - Test Acc: 97.99% 	
+
+                  precision    recall  f1-score      support
+Dr. melanogaster   0.939123  0.948361  0.943719  1220.000000
+Dr. suzukii        0.969216  0.965038  0.967123  2088.000000
+Zaprionus          1.000000  0.999166  0.999583  3596.000000
+accuracy           0.979867  0.979867  0.979867     0.979867
+macro avg          0.969446  0.970855  0.970142  6904.000000
+weighted avg       0.979932  0.979867  0.979894  6904.000000
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Accuracies among the 5 models:
+Model 0 | Train Loss: 0.020 -  Train Acc: 99.35% | Valid Loss: 0.049 - Valid Acc: 98.29% | Test Loss: 0.057 - Test Acc: 97.99% 	
+Model 1 | Train Loss: 0.021 -  Train Acc: 99.30% | Valid Loss: 0.054 - Valid Acc: 98.15% | Test Loss: 0.058 - Test Acc: 98.03% 	
+Model 2 | Train Loss: 0.021 -  Train Acc: 99.33% | Valid Loss: 0.053 - Valid Acc: 98.29% | Test Loss: 0.057 - Test Acc: 97.94% 	
+Model 3 | Train Loss: 0.021 -  Train Acc: 99.25% | Valid Loss: 0.055 - Valid Acc: 98.16% | Test Loss: 0.063 - Test Acc: 97.86% 	
+Model 4 | Train Loss: 0.022 -  Train Acc: 99.28% | Valid Loss: 0.054 - Valid Acc: 98.10% | Test Loss: 0.057 - Test Acc: 97.93% 	
+
+Mean test accuracy: 0.9795
+Max test accuracy: 0.9803
+Mean test loss: 0.0583
+Min test loss: 0.0567
