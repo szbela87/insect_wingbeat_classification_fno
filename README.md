@@ -66,5 +66,5 @@ The trained models are available at [Google Drive](https://drive.google.com/driv
 
 ## About the datasets
 
-The descriptions of how to generate the data files for the trainings and the tests can be found in the `create_datasets` directory, i. e. [./create_datasets/Readme.md](---temporarily removed---)
+The descriptions of how to generate the data files for the trainings and the tests can be found in the `create_datasets` directory.
  
