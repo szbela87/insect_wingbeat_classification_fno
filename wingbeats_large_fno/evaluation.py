@@ -230,7 +230,7 @@ elif args.dataset == "Fruitflies":
     
 elif args.dataset == "Insects":
     #target_names = ["Aedes_female","Aedes_male","Fruit_flies","House_flies","Quinx_female","Quinx_male","Stigma_female","Stigma_male","Tarsalis_female","Tarsalis_male"]
-    target_names = ["Ae. ae. f.","Ae. ae. m.","Dr. si.", "Mu. do.",         "Cx. qu. f.","Cx. qu. m.","Cx. st. f.","Cx. st. m.","Cx. ta. f.","Cx. ta. m."]
+    target_names = ["Ae.ae.f","Ae.ae.m","Dr.si.", "Mu.do.","Cx.qu.f","Cx.qu.m","Cx.st.f","Cx.st.m","Cx.ta.f","Cx.ta.m"]
     
     X = pd.read_csv(TRAIN_DATASET,sep=",")
     
@@ -355,10 +355,10 @@ SMALL_SIZE = 50
 MEDIUM_SIZE = 40
 BIGGER_SIZE = 40
 
-if args.dataset == "Insects":
-    target_names_shorter = [target_names[i][:10] for i in range(len(target_names))]
-else:
-    target_names_shorter = [target_names[i][:6] for i in range(len(target_names))]
+#if args.dataset == "Insects":
+target_names_shorter = [target_names[i][:7] for i in range(len(target_names))]
+#else:
+#    target_names_shorter = [target_names[i][:6] for i in range(len(target_names))]
 
 plt.rc('font', size=SMALL_SIZE)          # controls default text sizes
 plt.rc('axes', titlesize=0)     # fontsize of the axes title
