@@ -12,7 +12,7 @@ pip install -r requirements.txt
 
 ### Data Preparation
 
-You can obtain all the four datasets from [Google Drive](https://drive.google.com/drive/folders/1Mt9Qpuc9PUXmThgX6iRlUFqE15nrvWTb?usp=sharing).
+You can obtain all the four datasets from [Google Drive](---temporarily removed due to the double-blind review process---).
 
 ```
 mkdir data
@@ -62,7 +62,7 @@ and makes plots about the accuracies and the losses in `.svg` format among the 5
 
 ## Best Models
 
-The trained models are available at [Google Drive](https://drive.google.com/drive/folders/1QB-XOD96d909x_L64pBX0gFTI3V_BS4I?usp=sharing).
+The trained models are available at [Google Drive](---temporarily removed due to the double-blind review process---).
 
 ## About the datasets
 
