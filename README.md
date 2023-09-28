@@ -31,7 +31,7 @@ at `./wingbeats_large_fno`. These directories are:
 * `abuzz_small_fno`
 * `abuzz_large_fno`
 * `insects_small_fno`
-* `insects_large_fno`
+* `insects_large_fno` 
 
 The `fno`/`fno_med` words in the folder names indicate that the small/large *CF-ResNet-1D-9* models were used on the corresponding dataset.
 
