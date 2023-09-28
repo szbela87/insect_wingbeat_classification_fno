@@ -32,6 +32,8 @@ To create the `train_abuzz.npy` and the `test_abuzz.npy` files just type the fol
 ## The *Fruitflies* dataset
 
 The original *Fruitflies* dataset can be downloaded from [timeseriesclassification.com](http://www.timeseriesclassification.com/description.php?Dataset=FruitFlies).
+The `create_data_fruitflies.py` creates `.csv` files for the training and the test sets.
+
 
 ## The *Insects* dataset
 
