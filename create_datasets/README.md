@@ -1,6 +1,6 @@
 # Creating the data files
 
-The resulted data files can be downloaded from [Google Drive](---temporarily removed due to the double-blind review process---).
+The resulted data files can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1Mt9Qpuc9PUXmThgX6iRlUFqE15nrvWTb?usp=sharing).
 Below is a description of how to create these files.
 
 ## The *Wingbeats* and the *Abuzz* datasets
