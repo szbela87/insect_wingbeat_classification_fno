@@ -16,7 +16,7 @@
     <li>
       <a href="#best-models">Best models</a>
     </li>
-    <li><a href="#datasets">The datasets</a></li>
+    <li><a href="#the-datasets">The datasets</a></li>
   </ol>
 </details>
 
@@ -40,6 +40,8 @@ mkdir data
 **Please put them in the `./data` directory.**
 
 **Also copy the `evaluation.py`, `train_mgpu.py` and `functions.py` files in the corresponding directory.**
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Training and Evaluation
 In the different directories, we provide the training scripts, i.e. for the *Wingbeats* dataset and the large *CF-ResNet-1D-9* model can be found
@@ -80,11 +82,17 @@ creates the `results.dat` file which contains evaluation metrics achieved by the
 It also creates the confusion matrix corresponding the model with the highest validation accuracy,
 and makes plots about the accuracies and the losses in `.svg` format among the 5 independent runs. 
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ## Best Models
 
 The trained models are available at [Google Drive](https://drive.google.com/drive/folders/1QB-XOD96d909x_L64pBX0gFTI3V_BS4I?usp=sharing).
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ## The datasets
 
 The descriptions of how to generate the data files for the trainings and the tests can be found in the `create_datasets` directory.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
  
