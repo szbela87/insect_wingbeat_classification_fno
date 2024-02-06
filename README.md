@@ -1,7 +1,27 @@
 # CF-ResNet-1D-9 Models for Insect Wingbeat Sound Classification
 
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#environment-installation">Environment Installation</a>
+    </li>
+    <li>
+      <a href="#data-preparation">Data Preparation</a>
+    </li>
+    <li>
+      <a href="#training-and-evaluation">Training and Evaluation</a>
+    </li>
+    <li>
+      <a href="#best-models">Best models</a>
+    </li>
+    <li><a href="#datasets">The datasets</a></li>
+  </ol>
+</details>
+
 ## Getting Started
-### Environment Requirements
+### Environment Installation
 
 First, please make sure you have installed Conda. Then, our environment can be installed by:
 ```
@@ -21,7 +41,7 @@ mkdir data
 
 **Also copy the `evaluation.py`, `train_mgpu.py` and `functions.py` files in the corresponding directory.**
 
-### Training Example
+### Training and Evaluation
 In the different directories, we provide the training scripts, i.e. for the *Wingbeats* dataset and the large *CF-ResNet-1D-9* model can be found
 at `./wingbeats_large_fno`. These directories are:
 * `wingbeats_small_fno`
@@ -64,7 +84,7 @@ and makes plots about the accuracies and the losses in `.svg` format among the 5
 
 The trained models are available at [Google Drive](https://drive.google.com/drive/folders/1QB-XOD96d909x_L64pBX0gFTI3V_BS4I?usp=sharing).
 
-## About the datasets
+## The datasets
 
 The descriptions of how to generate the data files for the trainings and the tests can be found in the `create_datasets` directory.
  
