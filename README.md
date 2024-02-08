@@ -57,6 +57,8 @@ at `./wingbeats_large_fno`. These directories are:
 
 The `fno`/`fno_med` words in the folder names indicate that the small/large *CF-ResNet-1D-9* models were used on the corresponding dataset.
 
+The scripts for the vanilla FNO-ResNet9 models, where the convolutional kernel size is consistently set to 1, can be found in the `vanilla_scripts` directory.
+
 Each training script produces 5 training sessions.
 
 To train the model use the command 
