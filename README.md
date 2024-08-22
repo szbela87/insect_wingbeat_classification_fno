@@ -30,12 +30,6 @@ conda activate insect_classification
 pip install -r requirements.txt
 ```
 
-**Important note:**
-If you have and older GPU, i.e., a GTX 1080 then install an older PyTorch version:
-```
-pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 torchaudio==0.12.1 --extra-index-url https://download.pytorch.org/whl/cu113
-```
-
 ### Data Preparation
  
 You can obtain all the four datasets from [Google Drive](https://drive.google.com/drive/folders/1Mt9Qpuc9PUXmThgX6iRlUFqE15nrvWTb?usp=sharing).
