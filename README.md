@@ -1,4 +1,4 @@
-# CF-ResNet-1D-9 Models for Insect Wingbeat Sound Classification
+# Applying Fourier Neural Operator to Insect Wingbeat Sound Classification: Introducing CF-ResNet-1D
 
 <!-- TABLE OF CONTENTS -->
 <details>
