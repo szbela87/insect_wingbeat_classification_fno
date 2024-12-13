@@ -86,6 +86,24 @@ and makes plots about the accuracies and the losses in `.svg` format among the 5
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+### Selection of Hyperparameters
+
+The required files for the selection procedure are in `ht_ft` directory.
+To run the hyperparameter's selection process use the following command:
+
+```
+./ht_ft.sh
+``` 
+
+A grid search approach was applied to optimize these hyperparameters, using 10%
+of the training subset of the Wingbeats dataset. The selected small subset was further divided
+into training and validation sets in a 75%-25% ratio. During the optimization process, we tuned the convolutional kernel size, the learning rate, and
+the weight-decay hyperparameters, targeting the highest validation accuracy.
+
+The small dataset was generated using the `create_data_ht.py` script. The link to the resulting dataset is available in the Google Drive directory shared in the `./create_datasets/Readme.md` file.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ## Best Models
 
 The trained models are available at [Google Drive](https://drive.google.com/drive/folders/1QB-XOD96d909x_L64pBX0gFTI3V_BS4I?usp=sharing).
