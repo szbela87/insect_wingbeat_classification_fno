@@ -14,6 +14,9 @@
       <a href="#training-and-evaluation">Training and Evaluation</a>
     </li>
     <li>
+      <a href="#hyperparameter-selection">Hyperparameter Selection</a>
+    </li>
+    <li>
       <a href="#best-models">Best models</a>
     </li>
     <li><a href="#the-datasets">The datasets</a></li>
