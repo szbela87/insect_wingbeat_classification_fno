@@ -91,8 +91,8 @@ and makes plots about the accuracies and the losses in `.svg` format among the 5
 
 ### Selection of Hyperparameters
 
-The required files for the selection procedure are in `ht_ft` directory.
-To run the hyperparameter's selection process use the following command:
+The required files for the hyperparameter's selection procedure are in `ht_ft` directory.
+To run the process use the following command:
 
 ```
 ./ht_ft.sh
