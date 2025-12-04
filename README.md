@@ -123,6 +123,8 @@ The descriptions of how to generate the data files for the trainings and the tes
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Citations
+If you use this repository or the methods described here in your research, please cite the following paper:
+
 ```
 @article{SZEKERES2025103055,
 title = {Applying Fourier Neural Operator to insect wingbeat sound classification: Introducing CF-ResNet-1D},
