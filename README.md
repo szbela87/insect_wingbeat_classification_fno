@@ -1,5 +1,8 @@
 # Applying Fourier Neural Operator to Insect Wingbeat Sound Classification: Introducing CF-ResNet-1D
 
+This repository contains the code for the paper:
+- [Applying Fourier Neural Operator to insect wingbeat sound classification: Introducing CF-ResNet-1D](https://www.sciencedirect.com/science/article/pii/S1574954125000640)
+
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -118,4 +121,21 @@ The trained models are available at [Google Drive](https://drive.google.com/driv
 The descriptions of how to generate the data files for the trainings and the tests can be found in the `create_datasets` directory.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+## Citations
+```
+@article{SZEKERES2025103055,
+title = {Applying Fourier Neural Operator to insect wingbeat sound classification: Introducing CF-ResNet-1D},
+journal = {Ecological Informatics},
+volume = {86},
+pages = {103055},
+year = {2025},
+issn = {1574-9541},
+doi = {https://doi.org/10.1016/j.ecoinf.2025.103055},
+url = {https://www.sciencedirect.com/science/article/pii/S1574954125000640},
+author = {Béla J. Szekeres and Máté Natabara Gyöngyössy and János Botzheim},
+keywords = {Audio classification, ResNet architecture, Deep learning, Mosquito wingbeat, Fourier Neural Operator},
+abstract = {Mosquitoes and other insects are vectors of severe diseases, posing significant health risks to millions worldwide yearly. Effective classification of insect species, particularly through their wingbeat sounds, is crucial for disease prevention and control. Despite recent advancements in Deep Learning, Fourier Neural Operators (FNO), efficient for solving Partial Differential Equations due to their global spectral representations, have yet to be thoroughly explored for real-world time series classification or regression tasks. This study explores the application of FNOs in insect wingbeat sound classification, focusing on their potential for improving the accuracy and efficiency of such tasks, particularly in the fight against mosquito-borne diseases. We introduce CF-ResNet-1D, a novel ResNet-inspired model that integrates Convolutional Fourier Layers, combining the strengths of FNOs and 1D-Convolutional processing. The model is designed to analyze raw time-domain signals, leveraging the parallel spectral processing capabilities of FNOs. Our findings demonstrate that CF-ResNet-1D significantly outperforms traditional spectrogram-based models in classifying insect wingbeat sounds, achieving state-of-the-art accuracy.}
+}
+```
  
